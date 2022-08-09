@@ -1,0 +1,30 @@
+{
+
+  "tc_run_id": "dummy_test_ids",
+
+  "start_time": "#date-ddMMyyyyhhmmss-UTC+05:30#","end_time": "#date-ddMMyyyyhhmmss-UTC+05:30-Second-4#",
+
+  "name": "sample_testcase2","category": "sample",
+
+  "log_file": null,
+
+  "status": "FAIL",
+
+  "user": "test_user",
+
+  "machine": "rere",
+
+  "result_file": null,
+
+  "product_type": "PYGEM",
+
+  "ignore": false,
+
+  "miscData": [],
+
+  "steps":[{"title":"test","desc":"testdesc","status":"PASS"},{"title":"test1","desc":"testdesc1","status":"FAIL"},{"title":"test2","desc":"testdesc2","status":"EXE"}]
+
+
+
+
+}

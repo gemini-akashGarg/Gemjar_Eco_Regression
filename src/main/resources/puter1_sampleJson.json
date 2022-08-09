@@ -1,0 +1,30 @@
+{
+
+  "tc_run_id": "validate_user_exists_b681ad35-95c6-44b7-8375-823903cb9b8a",
+
+  "start_time": "#date-ddMMyyyyhhmmss-UTC+05:30#","end_time": "#date-ddMMyyyyhhmmss-UTC+05:30-Second-4#",
+
+  "name": "sample_testcase2","category": "sample",
+
+  "log_file": null,
+
+  "status": "#epoch#",
+
+  "user": "test_user",
+
+  "machine": "#uuid#",
+
+  "result_file": null,
+
+  "product_type": "PYGEM",
+
+  "ignore": false,
+
+  "miscData": [],
+
+  "steps":[{"title":"test","desc":"testdesc","status":"PASS"},{"title":"test1","desc":"testdesc1","status":"FAIL"},{"title":"test2","desc":"testdesc2","status":"EXE"}],
+
+
+  "s_run_id": "GEMECOSYSTEM_APIS_BETA_B681AD35-95C6-44B7-8375-823903CB9B8A"
+
+}

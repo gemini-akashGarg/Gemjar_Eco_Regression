@@ -1,0 +1,31 @@
+{
+
+  "s_run_id":"GEMECOSYSTEM_APIS_BETA_B681AD35-95C6-44B7-8375-823903CB9B8A",
+
+  "s_start_time": "#date-ddMMyyyyhhmmss-UTC+05:30#",
+
+  "s_end_time": "#date-ddMMyyyyhhmmss-UTC+05:30-Second-4#",
+
+  "status": "FAIL",
+
+  "project_name": "pygem_project",
+
+  "run_type": "ON DEMAND",
+
+  "s_report_type": null,
+
+  "user": "test_user",
+
+  "env": "beta",
+
+  "machine": "csgeek",
+
+  "initiated_by": "test_user",
+
+  "run_mode": "LINUX_CLI",
+
+  "miscData": [],
+
+  "s_id": "test_id"
+
+}
