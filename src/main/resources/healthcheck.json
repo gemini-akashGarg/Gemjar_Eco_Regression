@@ -1,0 +1,14 @@
+[{
+  "test_name": "get random users",
+  "method": "Get",
+  "endpoint": "https://gorest.co.in/public/v2/users",
+  "expected_status": 200,
+  "parameters": {
+    "gender": "male",
+    "status": "active"
+  },
+  "post_validation": {
+    "response(1)(gender)": "TO male",
+    "response(2)(status)": "TO active"
+  }
+}]

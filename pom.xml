@@ -15,8 +15,8 @@
     <dependencies>
         <dependency>
             <groupId>com.gemecosystem.gemjar</groupId>
-          <artifactId>gemjar-beta</artifactId>
-            <version>1.0.1</version>
+          <artifactId>gemjar</artifactId>
+            <version>1.0.0</version>
 <!--                         <artifactId>gemjar-beta</artifactId>-->
 
 <!--                        <version>1.0.1</version>-->

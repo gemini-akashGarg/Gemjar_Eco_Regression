@@ -1,10 +1,10 @@
 {
-  "environment": "beta",
-  "projectName": "GEMECOSYSTEM_APIS",
+  "environment": "prod",
+  "projectName": "GEMECO-API-JV",
   "reportName": "GemJar API Sample Report",
   "token": "Bearer 5a04138da05dcd31f23abe52acff8c3780445d025fad35b4f1a7c7abbdea353c",
-  "gemjarUserName": "arpit.mishra",
-  "gemjarToken": "1a9df62c-1d43-46ef-bad9-ebf7728567391660161433276",
+  "gemjarUserName": "raghavsuneja123",
+  "gemjarToken": "43ff688a-ce8a-46a9-8579-036bc7bb2abb1662033869944",
   "gemjarSubID": "test_id",
   "username": "raghav.suneja",
   "beta": {
