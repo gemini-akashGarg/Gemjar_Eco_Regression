@@ -26,10 +26,10 @@ public class get_suite extends GemjarTestngBase {
         request.setStep("Test to check the Get API");
         Response response = ApiInvocation.handleRequest(request);
         System.out.println(response.getStatus());
-        HashMap<String,String> mapi=new HashMap<>();
-        mapi.put("Key","Value");
+//        HashMap<String,String> mapi=new HashMap<>();
+//        mapi.put("Key","Value");
 
-        GemTestReporter.addTestStep("Title", "This is a sample test case", STATUS.INFO,mapi);
+//        GemTestReporter.addTestStep("Title", "This is a sample test case", STATUS.INFO,mapi);
 
 
     }

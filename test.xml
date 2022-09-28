@@ -8,9 +8,6 @@
             <class name="TestPackage.get_suite"/>
             <class name="TestPackage.Getcompany"/>
             <class name="TestPackage.gettoken"/>
-
-
-
             <class name="TestPackage.GetUser"/>
             <class name="TestPackage.Loginuser"/>
             <class name="TestPackage.posttoken"/>
