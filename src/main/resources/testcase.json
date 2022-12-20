@@ -806,6 +806,14 @@
     "inputData": {
       "id": 1234
     }
+  },
+  "Test": {
+    "runFlag": "Y",
+    "category": "test",
+    "scenarioID": "V2S001",
+    "inputData": {
+      "id": 1234
+    }
   }
 }
 

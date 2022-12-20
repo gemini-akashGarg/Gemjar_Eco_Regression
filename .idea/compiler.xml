@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Gemjar_Eco_Regression" />
         <module name="Gemjar_Pre_Release" />
       </profile>
     </annotationProcessing>

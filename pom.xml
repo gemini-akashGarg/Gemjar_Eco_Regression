@@ -9,20 +9,14 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
             <groupId>com.gemecosystem.gemjar</groupId>
-
-
-          <artifactId>gemjar</artifactId>
-            <version>1.0.0</version>
-<!--                         <artifactId>gemjar-beta</artifactId>-->
-
-<!--                        <version>1.0.1</version>-->
-
+            <artifactId>gemjar-test</artifactId>
+            <version>1.0.9.1</version>
         </dependency>
     </dependencies>
 </project>

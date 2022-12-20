@@ -8,7 +8,6 @@ import com.gemini.generic.reporting.GemTestReporter;
 import com.gemini.generic.reporting.STATUS;
 import com.gemini.generic.tdd.GemjarTestngBase;
 import com.gemini.generic.utils.ProjectConfigData;
-import com.google.gson.JsonObject;
 import org.testng.annotations.Test;
 
 public class Getcompany extends GemjarTestngBase {
@@ -28,11 +27,8 @@ public class Getcompany extends GemjarTestngBase {
         request.setStep("Test to check the Get Company API");
         Response response = ApiInvocation.handleRequest(request);
         System.out.println(response.getStatus());
-
-
+//        GemTestReporter.addTestStep("","",STATUS.FAIL);
         //////////////////////////////////////////////////////////////
-
-
     }
 }
 

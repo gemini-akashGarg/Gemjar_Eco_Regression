@@ -172,14 +172,14 @@ public class Loginuser extends GemjarTestngBase {
 
         GemTestReporter.addTestStep("Status ", String.valueOf(status), STATUS.INFO);
 
-        if (status == 500) {
-            GemTestReporter.addTestStep("Status Verification", "Expected Status : 500", STATUS.PASS);
+        if (status == 400) {
+            GemTestReporter.addTestStep("Status Verification", "Expected Status : 400", STATUS.PASS);
             String bo = res.getErrorMessage();
             GemTestReporter.addTestStep("Final response", String.valueOf(bo), STATUS.PASS);
 
 
         } else if (status == 200) {
-            GemTestReporter.addTestStep("Status Verification", "Expected Status : 500", STATUS.FAIL);
+            GemTestReporter.addTestStep("Status Verification", "Expected Status : 400", STATUS.FAIL);
 
             String bod = res.getResponseBody();
             JsonParser parser = new JsonParser();

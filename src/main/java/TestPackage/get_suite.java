@@ -18,14 +18,22 @@ public class get_suite extends GemjarTestngBase {
     @Test
     public void sample() throws Exception {
 
-
         Request request = new Request();
         String url = ProjectConfigData.getProperty("Gettt");
         request.setURL(url);
         request.setMethod("get");
-        request.setStep("Test to check the Get API");
-        Response response = ApiInvocation.handleRequest(request);
-        System.out.println(response.getStatus());
+        request.setStep("check ");
+        try {
+            Response response = ApiInvocation.handleRequest(request);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        throw new Exception("MANMADE EXCEPTION");
+//        System.out.println(response.getErrorMessage());
+//        System.out.println(response.getStatus());
+//        System.out.println(response.getResponseMessage());
+//        System.out.println(response.getResponseBody());
+
 //        HashMap<String,String> mapi=new HashMap<>();
 //        mapi.put("Key","Value");
 
@@ -55,3 +63,5 @@ public class get_suite extends GemjarTestngBase {
         }
     }
 }
+
+
