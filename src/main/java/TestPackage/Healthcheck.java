@@ -14,6 +14,9 @@ public class Healthcheck extends GemJarHealthCheckBase {
     public static void Test() throws GemException {
     String payload = ProjectSampleJson.getSampleDataString("healthcheck");
     ApiInvocationImpl.healthCheck("src/main/resources/healthcheck.json");
+    ApiInvocationImpl.healthCheck("src/main/resources/healthcheck1.json");
+    ApiInvocationImpl.healthCheck("src/main/resources/healthcheck2.json");
+
 
 
 

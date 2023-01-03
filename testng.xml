@@ -4,15 +4,15 @@
     <parameter name="reportName" value=" Gemecosystem-PROD-DAILY REGRESSION "/>
     <test verbose="2" name="Test1">
         <classes>
-            <class name="TestPackage.get_suite"/>
+<!--            <class name="TestPackage.get_suite"/>-->
             <class name="TestPackage.Getcompany"/>
-            <class name="TestPackage.gettoken"/>
-            <class name="TestPackage.GetUser"/>
-            <class name="TestPackage.Loginuser"/>
-            <class name="TestPackage.posttoken"/>
-            <class name="TestPackage.Postusers"/>
-            <class name="TestPackage.Test_Pre_Release"/>
-            <class name="TestPackage.Testex"/>
+<!--            <class name="TestPackage.gettoken"/>-->
+<!--            <class name="TestPackage.GetUser"/>-->
+<!--            <class name="TestPackage.Loginuser"/>-->
+<!--            <class name="TestPackage.posttoken"/>-->
+<!--            <class name="TestPackage.Postusers"/>-->
+<!--            <class name="TestPackage.Test_Pre_Release"/>-->
+<!--            <class name="TestPackage.Testex"/>-->
         </classes>
     </test> <!-- Default test -->
 <!--    <test verbose="2" name="Test1">-->

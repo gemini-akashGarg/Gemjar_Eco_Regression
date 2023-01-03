@@ -57,7 +57,7 @@ public class gettoken extends GemjarTestngBase {
         GemTestReporter.addTestStep("Url for Get Request", url, STATUS.INFO);
         request.setURL(url);
         request.setMethod("get");
-        request.setHeaderMap(headers);
+        request.setHeaders(headers);
         request.setStep("Test to check the Get Company API");
         try {
             Response response = ApiInvocation.handleRequest(request);
@@ -88,7 +88,7 @@ public class gettoken extends GemjarTestngBase {
         GemTestReporter.addTestStep("Url for Get Request", url, STATUS.INFO);
         request.setURL(url);
         request.setMethod("get");
-        request.setHeaderMap(headers);
+        request.setHeaders(headers);
 
         try {
             Response response = ApiInvocation.handleRequest(request);

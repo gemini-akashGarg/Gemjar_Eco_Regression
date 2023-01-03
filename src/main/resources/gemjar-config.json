@@ -11,7 +11,7 @@
   "beta": {
     "jira1": {
       "email": "akash.garg@geminisolutions.com",
-      "accessToken": "Em8F08qZiqGb1NiwRNynB8B7",
+      "accessToken": "Y7Q80C3TccuzG5wwSxOF83E2",
       "projectId": 10008,
       "flow":["DETAILED ADDED","BUG ACCEPTED","IN DEV","CODE REVIEW","READY FOR QA","IN TEST","TEST DONE","READY FOR PROD","PROD DEPLOYED"]
     },

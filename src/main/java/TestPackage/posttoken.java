@@ -97,7 +97,7 @@ public class posttoken extends GemjarTestngBase {
         Request request = new Request();
         request.setURL(url);
         request.setMethod("Post");
-        request.setHeaderMap(headers);
+        request.setHeaders(headers);
         request.setStep("Change Token");
 
         Response response = ApiInvocation.handleRequest(request);
@@ -203,7 +203,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("Post");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
 
                 Response response = ApiInvocation.handleRequest(request);
                 resp = response;
@@ -261,7 +261,7 @@ public class posttoken extends GemjarTestngBase {
             Request request = new Request();
             request.setURL(url);
             request.setMethod("get");
-            request.setHeaderMap(headers);
+            request.setHeaders(headers);
 
             Response response = ApiInvocation.handleRequest(request);
             res = response;
@@ -323,7 +323,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("post");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -393,7 +393,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("post");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -483,7 +483,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("post");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -558,7 +558,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("post");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -727,7 +727,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("put");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -804,7 +804,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("put");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -895,7 +895,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("put");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -1077,7 +1077,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("post");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -1155,7 +1155,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("post");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -1236,7 +1236,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("post");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -1311,7 +1311,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("post");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -1391,7 +1391,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("post");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -1560,7 +1560,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("put");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -1633,7 +1633,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("put");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -1714,7 +1714,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("put");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;
@@ -1789,7 +1789,7 @@ public class posttoken extends GemjarTestngBase {
                 Request request = new Request();
                 request.setURL(url);
                 request.setMethod("put");
-                request.setHeaderMap(headers);
+                request.setHeaders(headers);
                 request.setRequestPayload(payload);
                 Response response = ApiInvocation.handleRequest(request);
                 res = response;

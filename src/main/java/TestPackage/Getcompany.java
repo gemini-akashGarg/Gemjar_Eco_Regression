@@ -19,6 +19,7 @@ public class Getcompany extends GemjarTestngBase {
 /////////////////////////////////////////////////////////
 
 
+        GemTestReporter.addTestCaseMetaData("Testcase key ", "ques");
         Request request = new Request();
         String url = ProjectConfigData.getProperty("Getc");
         request.setURL(url);
@@ -28,6 +29,8 @@ public class Getcompany extends GemjarTestngBase {
         Response response = ApiInvocation.handleRequest(request);
         System.out.println(response.getStatus());
 //        GemTestReporter.addTestStep("","",STATUS.FAIL);
+        GemTestReporter.addReasonOfFailure("Fail reason");
+        GemTestReporter.addTestCaseMetaData("Hello ","OKAY");
         //////////////////////////////////////////////////////////////
     }
 }
